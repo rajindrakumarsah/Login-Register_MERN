@@ -6,13 +6,14 @@ import Home from './Home'
 
 function App() {
 
+  //creating all the routes
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/register" element={<Signup />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/dashboard" element={<Dashboard />}></Route>
+    <BrowserRouter> //format for routing
+      <Routes> //foratmat 2
+        <Route path="/" element={<Home />}></Route> // for homepage
+        <Route path="/register" element={<Signup />}></Route> //for register
+        <Route path="/login" element={<Login />}></Route> //for login
+        <Route path="/dashboard" element={<Dashboard />}></Route>  //for dashboard
       </Routes>
     </BrowserRouter>
   )

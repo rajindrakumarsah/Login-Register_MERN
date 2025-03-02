@@ -1,0 +1,14 @@
+-----------------All info--------------------------------------
+create client 
+step 1 : create folder for this 
+step 2 : create react app > npm init vite -> name of project - client ->select React -> select Javascript
+step 3 : cd client -> npm install -> npm install bootstrap ( for design) axios(http req,res) react-router-dom(routing) 
+step 4: npm run dev
+step 5 : create App.js -> where we set all the routes to each file 
+step 6 : create signup , login 
+step 7 : 
+
+create server
+-> create server file ->cd server -> npm init -y (created package)
+-> npm install express(handling http req,res) mongoose(connecting database) cors(access backend in frontend) nodemon(to restart server again again automatically) 
+-> create index.js ( where we can write our api code )
